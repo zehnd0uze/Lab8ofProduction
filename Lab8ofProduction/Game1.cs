@@ -8,7 +8,7 @@ namespace Lab8ofProduction
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        bool name;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
